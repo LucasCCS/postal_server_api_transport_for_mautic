@@ -1,0 +1,13 @@
+{
+    "name": "lucascosta/postal-server-api-transport-for-mautic",
+    "description": "Integrate Swiftmailer transport for Postal Server API",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Lucas Costa",
+            "email": "lucascostacruzsilva@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
