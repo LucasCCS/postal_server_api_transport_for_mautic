@@ -3,6 +3,8 @@
 1 - Go to the plugins folder, add a new folder called MauticPostalServerBundle\
 2 - Reload the plugin list using the command:\
 ```
+rm -rf var/cache/*
+
 php bin/console mautic:plugins:reload
 ```
 
