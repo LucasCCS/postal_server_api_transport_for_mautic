@@ -9,6 +9,7 @@ php bin/console mautic:plugins:reload
 OR \
 
 Go to /s/plugins and click Install/Upgrade Plugins\
+
 ---
 # Via composer
 ```
