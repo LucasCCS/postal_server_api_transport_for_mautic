@@ -1,7 +1,16 @@
 # How to install? (Manual Mode)
 
-1 - Go to the plugins folder, add a new folder called MauticPostalServerBundle
-2 - Reload the plugin list using the command:
+1 - Go to the plugins folder, add a new folder called MauticPostalServerBundle\
+2 - Reload the plugin list using the command:\
+```
 php bin/console mautic:plugins:reload
+```
 
-OR Go to /s/plugins and click Install/Upgrade Plugins
+OR \
+
+Go to /s/plugins and click Install/Upgrade Plugins\
+---
+# Via composer
+```
+composer require lucascosta/postal-server-api-transport-for-mautic
+```
