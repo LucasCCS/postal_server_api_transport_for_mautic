@@ -90,7 +90,7 @@ class PostalApiTransport extends AbstractTokenArrayTransport implements \Swift_T
      *
      * @throws \Exception
      */
-    public function send(\Swift_Mime_SimpleMessage $message, &$failedRecipients = null)
+    public function send(\Swift_Mime_Message $message, &$failedRecipients = null)
     {
         $count = 0;
         $failedRecipients = (array) $failedRecipients;
